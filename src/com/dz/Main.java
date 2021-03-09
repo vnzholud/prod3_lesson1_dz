@@ -10,7 +10,7 @@ public class Main {
 
     public static java.util.ArrayList<String> main(String[] args) {
 
-        String[] arr = {"dfsdf", "fdsdfff","Petya","Vasya"};
+        String[] arr = {"bvn vvv n", "ghfghfh","Petya","Vasya"};
         ArrayList<String> al = arrayTolist(arr);
 
 
@@ -24,6 +24,8 @@ public class Main {
 	    T obj = arr[index1];
 	    arr[index1] = arr[index2];
 	    arr[index2] = obj;
+
+
         }
     }
 }

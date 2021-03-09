@@ -18,11 +18,13 @@ public class BoxToFruits<T extends fruit> {
 
         float w = 0.0f;
 
+
         for (T fruit: container) {
 
             w+= fruit.getWeiht();
          }
         return w;
+
 
     }
 
@@ -35,12 +37,14 @@ public class BoxToFruits<T extends fruit> {
             return;
         }
         another.container.addAll(this.container);
+
         this.container.clear();
     }
 
     public void add(T fruit){
 
         container.add(fruit);
+
     }
 
 
