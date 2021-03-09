@@ -18,7 +18,7 @@ public class Main<T> {
             return new ArrayList<>(Arrays.asList(arr));
         }
 
-        public static T replace(T arr,int index1, int index2){
+        public static <T> replace(T arr,int index1, int index2){
             T obj = arr[index1];
             arr[index1] = arr[index2];
             arr[index2] = obj;
